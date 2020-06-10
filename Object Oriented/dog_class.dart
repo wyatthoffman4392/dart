@@ -6,16 +6,20 @@ void main() {
 
   dog1.sleep();
   dog1.eat();
+  dog1.humanAge = 10;
+  print(dog1.humanAge);
 
   var dog2 = Dog(2, 'Jack'); // dog2 is a reference variable to the instance of the Dog object
 
   dog2.sleep();
   dog2.eat();
+  dog2.humanAge = 15;
+  print(dog2.humanAge);
 
   var dog3 = Dog.namedConstructor(3, 'Oreo');
   print('${dog3.id} and ${dog3.name}');
 
-  
+
 }
 
 // Define properties and methods of a dog
