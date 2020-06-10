@@ -18,8 +18,6 @@ void main() {
 
   var dog3 = Dog.namedConstructor(3, 'Oreo');
   print('${dog3.id} and ${dog3.name}');
-
-
 }
 
 // Define properties and methods of a dog
@@ -30,7 +28,6 @@ class Dog {
   int _age; // Private instance variable denoted by _
   String type;
   List<String> favoriteFoods;
-
 
   // Dog() {
   //  print('This is the default constructor');
@@ -53,11 +50,9 @@ class Dog {
     print('${this.name} is now barking');
   }
 
-  void set humanAge(int dogAge) {   // Instance Variable with Custom Setter
-    _age = dogAge * 15;
-  }
+  // Instance Variable with Custom Setter
+  void set humanAge(int dogAge) => _age = dogAge * 15;
 
-  int get humanAge {    // Instance Variable with Custom Getter
-    return _age;
-  }
+  // Instance Variable with Custom Getter
+  int get humanAge => _age;
 }
