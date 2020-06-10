@@ -14,6 +14,8 @@ void main() {
 
   var dog3 = Dog.namedConstructor(3, 'Oreo');
   print('${dog3.id} and ${dog3.name}');
+
+  
 }
 
 // Define properties and methods of a dog
@@ -45,5 +47,13 @@ class Dog {
 
   void bark() {
     print('${this.name} is now barking');
+  }
+
+  void set humanAge(int dogAge) {   // Instance Variable with Custom Setter
+    age = dogAge * 15;
+  }
+
+  int get humanAge {    // Instance Variable with Custom Getter
+    return age;
   }
 }
