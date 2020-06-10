@@ -27,7 +27,7 @@ class Dog {
   // Instance Variables, defaults to null unless a default is specified
   int id = 0; // id is defaulted to 0 instead of null
   String name;
-  int age;
+  int _age;
   String type;
   List<String> favoriteFoods;
 
@@ -54,10 +54,10 @@ class Dog {
   }
 
   void set humanAge(int dogAge) {   // Instance Variable with Custom Setter
-    age = dogAge * 15;
+    _age = dogAge * 15;
   }
 
   int get humanAge {    // Instance Variable with Custom Getter
-    return age;
+    return _age;
   }
 }
