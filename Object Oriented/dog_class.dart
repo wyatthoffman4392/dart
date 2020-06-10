@@ -27,7 +27,7 @@ class Dog {
   // Instance Variables, defaults to null unless a default is specified
   int id = 0; // id is defaulted to 0 instead of null
   String name;
-  int _age;
+  int _age; // Private instance variable denoted by _
   String type;
   List<String> favoriteFoods;
 
