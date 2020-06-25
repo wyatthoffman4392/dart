@@ -4,7 +4,7 @@
 import 'animal.dart';
 
 class Hare extends Animal {
-  Hare() {
+  Hare() : super('black') {
     print('Hare constructor');
   }
 

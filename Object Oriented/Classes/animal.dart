@@ -5,7 +5,8 @@ class Animal {
   String color = 'grey';
   String age;
 
-  Animal() {
+  Animal(String color) {
+    this.color = color;
     print('Animal Constructor');
   }
 

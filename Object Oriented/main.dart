@@ -10,7 +10,7 @@ void main() {
   hare.eat(); // Eat is an inherited method
   print(hare.color); // Color is a predefined property
 
-  Tortoise tortoise = Tortoise(4);
+  Tortoise tortoise = Tortoise(4, 'red');
   tortoise.walk();
   tortoise.eat(); // This eat method is overriden
   print(tortoise.color); // Color is an overriden property
