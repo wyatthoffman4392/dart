@@ -4,6 +4,10 @@
 import 'animal.dart';
 
 class Hare extends Animal {
+  Hare() {
+    print('Hare constructor');
+  }
+
   void run() {
     print('zoom!');
   }

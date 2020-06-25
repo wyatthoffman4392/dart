@@ -4,7 +4,13 @@
 import 'animal.dart';
 
 class Tortoise extends Animal {
-  String color = 'green';
+  int spotCount;
+
+  Tortoise(int spotCount) {
+    this.spotCount = spotCount;
+    print(spotCount);
+    print('Tortoise constructor');
+  }
 
   void walk() {
     print('walking');

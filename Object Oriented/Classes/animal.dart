@@ -5,6 +5,10 @@ class Animal {
   String color = 'grey';
   String age;
 
+  Animal() {
+    print('Animal Constructor');
+  }
+
   void eat() {
     print('Animal is eating!');
   }
