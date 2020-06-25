@@ -2,7 +2,7 @@
 // Author: Wyatt Hoffman, Date: June 25, 2020
 
 class Animal {
-  String color;
+  String color = 'grey';
   String age;
 
   void eat() {

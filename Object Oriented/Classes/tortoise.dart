@@ -4,6 +4,8 @@
 import 'animal.dart';
 
 class Tortoise extends Animal {
+  String color = 'green';
+
   void walk() {
     print('walking');
   }
