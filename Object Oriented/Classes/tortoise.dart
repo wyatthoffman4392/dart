@@ -10,6 +10,7 @@ class Tortoise extends Animal {
 
   // Eat method implemented to demonstrate method overriding
   void eat() {
+    super.eat(); // super allows you to access the parent class.
     print('Tortoise is eating');
   }
 }
