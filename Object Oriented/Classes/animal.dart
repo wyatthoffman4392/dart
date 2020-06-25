@@ -6,6 +6,6 @@ class Animal {
   String age;
 
   void eat() {
-    print('Eat!');
+    print('Animal is eating!');
   }
 }

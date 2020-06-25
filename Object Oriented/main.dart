@@ -7,8 +7,7 @@ import 'Classes/tortoise.dart';
 void main() {
   Hare hare = Hare();
   hare.run();
-  // Eat is an Inherited method
-  hare.eat();
+  hare.eat(); // Eating is an inherited method
 
   Tortoise tortoise = Tortoise();
   tortoise.walk();

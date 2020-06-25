@@ -7,4 +7,9 @@ class Tortoise extends Animal {
   void walk() {
     print('walking');
   }
+
+  // Eat method implemented to demonstrate method overriding
+  void eat() {
+    print('Tortoise is eating');
+  }
 }
